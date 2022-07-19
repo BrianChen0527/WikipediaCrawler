@@ -522,7 +522,7 @@
       "id": "f882e89a-dae4-4c13-acb0-c29c69e4a1e9",
       "comment": "",
       "command": "click",
-      "target": "css=.x-dialogue-container:nth-child(23) div:nth-child(2) > .x-btn",
+      "target": "xpath=(//button[@type='button' and text()=' 新增紙本重病碼資料 '])[122]",
       "targets": [
         ["css=.x-dialogue-container:nth-child(30) div:nth-child(2) > .x-btn", "css:finder"],
         ["xpath=(//button[@type='button'])[122]", "xpath:attributes"],
