@@ -1,7 +1,7 @@
 import { HasFormatter } from "../interfaces/HasFormatter.js"
 
 // LESSON 11 - 13: classes and constructors and access modifiers
-export class Invoice implements HasFormatter{
+export class Payment implements HasFormatter{
     // private reciever: string;
     // public details: string;
     // readonly amount: number;
@@ -15,7 +15,7 @@ export class Invoice implements HasFormatter{
     // if u have access modifiers to add before contructor parameters, you can condense 
     // all the lines of code commented out above into something like this:
     constructor(
-        private sender: string, 
+        private reciever: string, 
         private details: string, 
         private amount: number
     ){}
@@ -23,9 +23,6 @@ export class Invoice implements HasFormatter{
 
     // create a formatted output
     format(){
-        return `${this.sender} has paid ${this.amount} dollars for ${this.details}`
+        return `${this.reciever} has recieved ${this.amount} dollars for ${this.details}`
     }
 }
-
-
-

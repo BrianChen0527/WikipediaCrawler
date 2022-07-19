@@ -10,13 +10,13 @@ export class Invoice {
     // }
     // if u have access modifiers to add before contructor parameters, you can condense 
     // all the lines of code commented out above into something like this:
-    constructor(reciever, details, amount) {
-        this.reciever = reciever;
+    constructor(sender, details, amount) {
+        this.sender = sender;
         this.details = details;
         this.amount = amount;
     }
     // create a formatted output
     format() {
-        return `${this.reciever} will recieve ${this.amount} dollars for ${this.details}`;
+        return `${this.sender} has paid ${this.amount} dollars for ${this.details}`;
     }
 }
