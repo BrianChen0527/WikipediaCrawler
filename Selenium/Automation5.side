@@ -7648,42 +7648,102 @@
         },
         {
           "command": "click",
-          "target": "xpath=//*[@class='x-w-pi-label-input-text'][text()='脈搏']",
+          "target": "css=.x-textarea",
           "value": "",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "9e2de7ff-3ebd-47cd-a291-e5433e363a50",
+          "id": "32907224-e861-43a5-84b4-2bf486cf62f7",
           "targets": [
             [
-              "xpath=//*[@class='x-w-pi-label-input-text'][text()='脈搏']",
-              "xpath:verifyList"
-            ],
-            [
-              "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
+              "css=.x-textarea",
               "css:finder"
             ],
             [
-              "xpath=(//input[@type='text'])[4]",
-              "xpath:attributes"
-            ],
-            [
-              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div/label/div/input)[1]",
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div[5]/textarea)[1]",
               "xpath:idRelative"
             ]
           ]
         },
         {
           "command": "click",
-          "target": "xpath=//*[@class='x-w-pi-label-input-text'][text()='脈搏']",
+          "target": "css=.x-textarea",
           "value": "",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "6b00aa4b-dea4-4874-8536-1487152eea57",
+          "id": "5ce3bb14-5e82-4fc2-afef-df080e5a7a3c",
           "targets": [
             [
-              "xpath=//*[@class='x-w-pi-label-input-text'][text()='脈搏']",
-              "xpath:verifyList"
+              "css=.x-textarea",
+              "css:finder"
             ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div[5]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-textarea",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "0e2a72e6-9657-4971-80c9-b84e8e37af45",
+          "targets": [
+            [
+              "css=.x-textarea",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div[5]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "doubleClick",
+          "target": "css=.x-textarea",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "2d97e847-a5c9-4bb9-af01-d57056c21d89",
+          "targets": [
+            [
+              "css=.x-textarea",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div[5]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "css=.x-textarea",
+          "value": "123",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "8bab7285-a422-45dc-be85-cf67a00de970",
+          "targets": [
+            [
+              "css=.x-textarea",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div[5]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "293b705f-c5a1-4a60-9d1a-c1a00c51a29f",
+          "targets": [
             [
               "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
               "css:finder"
@@ -7704,12 +7764,8 @@
           "value": "123",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "3d697c41-20b1-4c50-bf12-50931d711b2b",
+          "id": "7c84230c-8ddd-4ec7-b98d-664ce70a82bf",
           "targets": [
-            [
-              "xpath=//*[@class='x-w-pi-label-input-text'][text()='脈搏']",
-              "xpath:verifyList"
-            ],
             [
               "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
               "css:finder"
@@ -7730,12 +7786,8 @@
           "value": "",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "ea64f722-baa0-4fad-bded-9c98a0661012",
+          "id": "cd64d6af-2ebe-492c-be94-64ca4cad4401",
           "targets": [
-            [
-              "xpath=//*[@class='x-w-pi-label-input-text'][text()='血壓']",
-              "xpath:verifyList"
-            ],
             [
               "css=.x-w-pi-label-input:nth-child(2) .x-input-input",
               "css:finder"
@@ -7756,12 +7808,8 @@
           "value": "123",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "8047ea93-687d-4bee-a62a-5c631de36089",
+          "id": "ec74bc4e-6b7a-4a16-b2da-246bc56c27fe",
           "targets": [
-            [
-              "xpath=//*[@class='x-w-pi-label-input-text'][text()='血壓']",
-              "xpath:verifyList"
-            ],
             [
               "css=.x-w-pi-label-input:nth-child(2) .x-input-input",
               "css:finder"
@@ -7782,12 +7830,8 @@
           "value": "",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "67d36d2d-6be9-4624-be4f-a739fa657049",
+          "id": "07703872-66f3-4f52-a21b-ea5f4676d03c",
           "targets": [
-            [
-              "xpath=//*[@class='x-w-pi-label-input-text'][text()='/']",
-              "xpath:verifyList"
-            ],
             [
               "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(3) .x-input-input",
               "css:finder"
@@ -7808,12 +7852,8 @@
           "value": "123",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "0892ec40-a0a2-41cb-a47d-6255f9d29dad",
+          "id": "48c71153-e84a-4928-82ed-a88e05bcf867",
           "targets": [
-            [
-              "xpath=//*[@class='x-w-pi-label-input-text'][text()='/']",
-              "xpath:verifyList"
-            ],
             [
               "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(3) .x-input-input",
               "css:finder"
@@ -7834,7 +7874,7 @@
           "value": "",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "00cf7046-502a-4eba-8511-c9bb127e11e3",
+          "id": "2763c2ad-58eb-4c34-9add-d79083e58a25",
           "targets": [
             [
               "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(1) .x-input-input",
@@ -7856,7 +7896,7 @@
           "value": "123",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "45ba1c07-0041-432d-a73f-e31b573e4c13",
+          "id": "2ce8478a-77f1-4b4d-bb5a-93391b6dabbf",
           "targets": [
             [
               "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(1) .x-input-input",
@@ -7878,7 +7918,7 @@
           "value": "",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "54252904-fac8-4200-8630-e5b7483c5e1b",
+          "id": "78bd9e2b-a14a-4009-85b7-deeb4788d23b",
           "targets": [
             [
               "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(3) .x-input-input",
@@ -7900,7 +7940,7 @@
           "value": "123",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
-          "id": "416470f0-f57e-4e60-a5c6-63d6f8ac4c7d",
+          "id": "128ff1be-25c9-46b5-b800-11050f3c2f4e",
           "targets": [
             [
               "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(3) .x-input-input",
@@ -7912,6 +7952,598 @@
             ],
             [
               "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[3]/div[2]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-ab > .x-icon-btn > .x-icon",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "79c593db-ffe2-495f-8b48-aa494a154969",
+          "targets": [
+            [
+              "css=.x-w-ab > .x-icon-btn > .x-icon",
+              "css:finder"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "xpath=//*[@class='x-table-td  '][text()='1']",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "1aa0755d-7775-42f2-a3b8-53229ffa96fe",
+          "targets": [
+            [
+              "xpath=//*[@class='x-table-td  '][text()='1']",
+              "xpath:verifyList"
+            ],
+            [
+              "css=.x-table-row--selected > .x-table-td:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr[2]/td[3])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "xpath=//*[@class='x-table-td  '][text()='1']",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "d1fbe612-553a-481b-9260-32435d4a03ea",
+          "targets": [
+            [
+              "xpath=//*[@class='x-table-td  '][text()='1']",
+              "xpath:verifyList"
+            ],
+            [
+              "css=.x-table-row--selected > .x-table-td:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr[2]/td[3])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "doubleClick",
+          "target": "xpath=//*[@class='x-table-td  '][text()='1']",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "58297d3f-70bc-4882-a470-fd3aedb4c9b1",
+          "targets": [
+            [
+              "xpath=//*[@class='x-table-td  '][text()='1']",
+              "xpath:verifyList"
+            ],
+            [
+              "css=.x-table-row--selected > .x-table-td:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr[2]/td[3])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "f2101f92-ed44-4526-bb69-6f002087cae1",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[4]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "d21c67e7-0ef4-4f88-a317-fb50ace12832",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[4]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "doubleClick",
+          "target": "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "c2d45875-4e49-45fe-bb2f-7a7c3433b962",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[4]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "555282f0-0260-43a6-bed0-4c065e104ed9",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(1) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[4]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-label-input:nth-child(2) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "3f8fc312-d684-4cd3-9f5c-d0267b4501bb",
+          "targets": [
+            [
+              "css=.x-w-pi-label-input:nth-child(2) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[5]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div[2]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-label-input:nth-child(2) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "aed27ddc-2f80-4c8d-9604-9ed52d3b986c",
+          "targets": [
+            [
+              "css=.x-w-pi-label-input:nth-child(2) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[5]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div[2]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "doubleClick",
+          "target": "css=.x-w-pi-label-input:nth-child(2) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "c67aeb80-e55a-4324-90a7-238bdd70d9b7",
+          "targets": [
+            [
+              "css=.x-w-pi-label-input:nth-child(2) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[5]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div[2]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "css=.x-w-pi-label-input:nth-child(2) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "debad7ba-d304-4146-ba43-d6d3b54e019a",
+          "targets": [
+            [
+              "css=.x-w-pi-label-input:nth-child(2) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[5]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div[2]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(3) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "35660972-309b-4303-880b-1b4a6e87c2f0",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(3) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[6]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div[3]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(3) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "823e094c-57c4-403d-9953-56eeeeba647b",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(3) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[6]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div[3]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "doubleClick",
+          "target": "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(3) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "e0682c15-4a75-49fb-8389-0e1855d12f81",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(3) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[6]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div[3]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(3) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "7fead142-f69a-440d-bfb1-3448fe326e1e",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container--widget > .x-w-pi-label-input:nth-child(3) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[6]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/div[3]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(3) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "c8be3c5e-1746-41e9-af51-4bf888f05ead",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(3) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[8]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[3]/div[2]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(3) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "5d0cd44a-217f-4c5f-81d1-a089cd3316df",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(3) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[8]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[3]/div[2]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "doubleClick",
+          "target": "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(3) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "7b2101e7-885f-4a32-84ba-aa085e6461e3",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(3) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[8]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[3]/div[2]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(3) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "0b206db1-fcf8-441c-a0fd-76977aaa291c",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(3) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[8]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[3]/div[2]/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(1) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "23cb87dc-6448-4986-ae16-267394fab331",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(1) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[7]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[3]/div/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(1) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "eab4f3c0-2e5a-4141-8b33-ca81cdcad6a5",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(1) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[7]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[3]/div/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "doubleClick",
+          "target": "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(1) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "2d563bf5-dd5e-40b1-8349-fad47a2ad984",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(1) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[7]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[3]/div/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(1) .x-input-input",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "1bb7ea9d-4d32-4bc1-a28e-0b55532b38f4",
+          "targets": [
+            [
+              "css=.x-w-pi-basic-health-info-container:nth-child(3) > .x-w-pi-label-input:nth-child(1) .x-input-input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[7]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div[3]/div/label/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-textarea",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "3ee07f47-b8d0-4229-9054-af78b8a6b048",
+          "targets": [
+            [
+              "css=.x-textarea",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div[5]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.x-textarea",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "96697801-d651-456b-8e28-22a7b1fe1e41",
+          "targets": [
+            [
+              "css=.x-textarea",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div[5]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "doubleClick",
+          "target": "css=.x-textarea",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "06ec33ed-fd9f-4659-8ebb-902a3b34c895",
+          "targets": [
+            [
+              "css=.x-textarea",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div[5]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "css=.x-textarea",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "id": "cbd82943-67b8-4e4e-b9a2-c59cd298d84c",
+          "targets": [
+            [
+              "css=.x-textarea",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='app']/div/div[2]/div/div/div[3]/div/div/div[5]/textarea)[1]",
               "xpath:idRelative"
             ]
           ]
